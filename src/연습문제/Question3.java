@@ -114,12 +114,16 @@ public class Question3
             case "11":
                 System.out.println("쓸쓸한 늦가을 11월 입니다.");
                 break;
+            default:
+                System.out.println("알 수 없는 월입니다.");
+                // 조건문 위에 (print문을 대체) greating = " " 으로 초기화해서, 쓰레기 값이 들어가는 것을 방지 가능하다.
         }
 
 
         System.out.println("아래와 일정으로 " + title + "를 진행하고자 하오니 오셔서 자리를 빛내 주시기 바랍니다.");
         System.out.println();
-        System.out.println("===== 행사 안내 =====");
+        //System.out.println("===== 행사 안내 =====");
+        System.out.println("=".repeat(5) + " 행사 안내 " + "=".repeat(5));
         System.out.println("행사 안내 :" + title);
         System.out.println("일시 : " + year + "년 " + season + "월 " + day + "일");
         System.out.println("시간 : " + time + "시");
