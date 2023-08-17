@@ -52,5 +52,7 @@ public class DataTypeClass {
         String address;
         String eMail;
         String phoneNum;
+
+        int what;
     }
 }
