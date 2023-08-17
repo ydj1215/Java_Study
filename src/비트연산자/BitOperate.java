@@ -19,5 +19,6 @@ public class BitOperate
         System.out.println(~num1);
         System.out.println(num1<<1); // *2 와 동일
         System.out.println(num1>>1); // /2 와 동일, 속도가 일반적인 나눗셈보다 빠르다. 성능에서 이득.
+        System.out.println(num1>>2);
     }
 }
