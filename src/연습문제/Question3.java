@@ -127,5 +127,6 @@ public class Question3
         System.out.println("행사 안내 :" + title);
         System.out.println("일시 : " + year + "년 " + season + "월 " + day + "일");
         System.out.println("시간 : " + time + "시");
+        System.out.println("test");
     }
 }
