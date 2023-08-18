@@ -1,3 +1,4 @@
+// -*- coding: utf-8 -*-
 package 연습문제;
 
 import java.util.Scanner;
