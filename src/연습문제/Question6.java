@@ -15,14 +15,23 @@ public class Question6 {
             if(arr[i] < 100 || arr[i]>2000) return;
         } // 버거1, 버거2, 버거3 / 음료1, 음료2
 
+        // 내가 한 풀이
         int temp = arr[0];
-        for(int m=0; m<3; m++) {
-            if(arr[m]<temp) temp = arr[m];
-            }
-
+        
+//        for(int m=0; m<3; m++) {
+//            if(arr[m]<temp) temp = arr[m];
+//            }
+//
+        
         int temp2 =arr[3];
-        for(int n = 3; n<5; n++){
-            if(arr[n]<temp2) temp2 = arr[n];
+//        for(int n = 3; n<5; n++){
+//            if(arr[n]<temp2) temp2 = arr[n];
+//        }
+
+        // 더 간단한 for문 하나로 묶는 풀이
+        for(int i = 0; i<arr.length; i++){
+            if(i<3 && temp>arr[i]) temp = arr[i];
+            if(i>2 && temp2 > arr[i]) temp2 = arr[i];
         }
 
         int result = temp + temp2 - 50;
