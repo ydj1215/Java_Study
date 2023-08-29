@@ -24,6 +24,25 @@ public class DefaultMain {
             rc.setVolume(30);
             ((Television) rc).getInfo();
         }
+
+        // 익명 객체
+        RemoteControl playStation = new RemoteControl() {
+            @Override
+            public void turnON() {
+                System.out.println("플스!");
+            }
+
+            @Override
+            public void turnOFF() {
+
+            }
+
+            @Override
+            public void setVolume(int vol) {
+
+            }
+        };
+        playStation.turnON();
     }
 
 }
