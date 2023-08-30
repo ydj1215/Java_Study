@@ -3,6 +3,9 @@ package Arrays클래스;
 import java.util.Arrays;
 import java.util.Comparator;
 
+// compare(String a, String b) : length 비교
+// a.compareTo(b) : 사전순 정렬
+
 public class Array정렬오버라이딩 {
     public static void main(String[] args) {
 //        // 정렬 오버라이딩(재정의)
