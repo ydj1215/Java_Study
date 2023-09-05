@@ -3,7 +3,6 @@ package 커피메뉴읽기;
 import 커피메뉴만들기.MenuInfo;
 
 import java.io.*;
-import java.util.HashMap;
 import java.util.Map;
 
 public class CoffeeMenuRead {
